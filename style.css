@@ -1,27 +1,56 @@
-body, h1, h2, h3, p, ul, li {
-    margin: 0;
-    padding: 0;
-  }  
-  H1{
-    text-align: center;
-  }
-body{
-    font-family:Arial, Helvetica, sans-serif;
-    line-height: 1.6;
-    background-color:#f0f0f0;
+Css file
+/* Reset some default styles */
+body, p, label, input, button,nav {
+margin: 0;
+padding: 0;
+text-align: center;
 }
-.header {
-    background-color: #333; 
-    color: #fff; 
-    padding: 10px; 
-  }
-.footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-  }
-  img {
-    max-width: 200px;
-    height: 100px;
-  }
+h1{
+  text-align: center;
+  color: #7ced48;
+  font-size: 50px;
+}
+h2{
+  text-align: center;
+  color:aqua;
+  font-size:40px;
+}
+.container{
+  width: 400px;
+  margin: auto;
+  background-color: #05c7f3;
+  padding: 10px;
+  border-radius: 10px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* Global Styles */
+body{
+  font-family:"lucida";
+  font-size: 25px;
+  color: #ffff00;
+  line-height: 1.8;
+  background-image: url("anime.gif");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+    }
+header {
+background-color: #15bca3;
+color: #413559;
+text-align: center;
+padding: 1rem;
+}
+main {
+padding: 2rem;
+text-align: center;
+}
+footer {
+text-align: center;
+padding: 1rem 0;
+background-color: #19ea38;
+color: #0b5c30;
+}
